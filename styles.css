@@ -1,1 +1,17 @@
 /* your code */
+table {
+	border: 1px solid gray;
+	border-radius: 5%;
+}
+tr:first-child {
+	background-color: blue;
+	color: white;
+}
+tbody tr:nth-child(odd) {
+	background-color: white;
+	color: black;
+}
+tr:nth-child(even) {
+	background-color: grey;
+	color: black;
+}
